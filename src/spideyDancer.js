@@ -1,6 +1,6 @@
 var SpideyDancer = function(top, left, timeBetweenSteps) {
 
-  Dancer.call(this, top, left, timeBetweenSteps, 'spideyDancer');
+  Dancer.call(this, top, left, timeBetweenSteps);
   // this.$node = $('<span class="spideyDancer"></span>');
   // var SpideyDancer = makeDancer(top, left, timeBetweenSteps);
 
@@ -8,6 +8,8 @@ var SpideyDancer = function(top, left, timeBetweenSteps) {
   // so we must keep a copy of the old version of this function
 
   // return SpideyDancer;
+  this.$node.removeClass('dancer').addClass('lisaSimpson');
+  this.$node.attr('src', 'img/simpsonsGiphy.gif');
   
 };
 
@@ -22,5 +24,6 @@ SpideyDancer.prototype.step = function() {
   // toggle() is a jQuery method to show/hide the <span> tag.
   // See http://api.jquery.com/category/effects/ for this and
   // other effects you can use on a jQuery-wrapped html tag.
-  this.$node.toggle();
+  // this.$node.toggle();
 };
+

@@ -1,10 +1,14 @@
 body, html{
   height:100%;
+  /*background: url(img/sprite-dancing-spideyce94ba04ba85e7d533404ebd476e15a8.png);*/
 }
 body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  background-image: url(img/insideATrain.jpeg);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -25,9 +29,25 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
-.spideyDancer{
-  border:10px solid lightblue;
-  border-radius:10px;
+.lisaSimpson{
+  /*border:10px solid lightblue;*/
+  /*display:inline;*/
+  /*border-radius:10px;*/
   position:absolute;
-  /*background: url(img/sprite-dancing-spideyce94ba04ba85e7d533404ebd476e15a8.png);*/
+  background: url(img/simpsonsGiphy.gif) left center;
+  /*background: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/blog/monster.png') left center;*/
+  /*animation: play .8s steps(10) infinite;*/
+  width: 200px;
+  height: 260px;
+  /*margin: 2% auto;*/
 }
+.kennyGiphy{
+  position:absolute;
+  background: url(img/kyleGiphy.gif) left center;
+  width:500px;
+  height: 260px;
+}
+
+/*body {
+  background: #24aecd;
+}*/

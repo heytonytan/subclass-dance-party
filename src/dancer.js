@@ -1,11 +1,8 @@
 // Creates and returns a new dancer object that can step
-var Dancer = function(top, left, timeBetweenSteps, className) {
+var Dancer = function(top, left, timeBetweenSteps) {
 
   // use jQuery to create an HTML <span> tag
-  if (className === undefined) {
-    className = 'dancer';
-  }
-  this.$node = $('<span class="' + className + '"></span>');
+  this.$node = $(<img class="dancer">);
   this.timeBetweenSteps = timeBetweenSteps;
   this.step();
 
