@@ -25,3 +25,9 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+.spideyDancer{
+  border:10px solid lightblue;
+  border-radius:10px;
+  position:absolute;
+  /*background: url(img/sprite-dancing-spideyce94ba04ba85e7d533404ebd476e15a8.png);*/
+}
